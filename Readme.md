@@ -128,8 +128,3 @@ Both arriving patients and doctors returning a patient use the producer operatio
 - [ ] Confirm every patient who enters the simulation eventually leaves after treatment.
 - [ ] Repeat each scenario several times because thread interleavings vary.
 
-## Notes for team integration
-
-The supplied starter archive currently contains a single `src/Hospital.java` with all supporting classes and TODO implementations. This implementation preserves the existing class names and method signatures so the resource layer can be merged with the team's work without renaming its interfaces.
-
-If the team later splits classes into separate `.java` files, keep only `Hospital` public in its own file and move each package-private class into a correspondingly named file. Do not keep duplicate class definitions in both the combined and split versions.
